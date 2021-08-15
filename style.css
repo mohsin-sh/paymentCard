@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    width: 75%;
+    height: 95vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 12.5%;
+}
+
+.sub-container{
+    width: 32%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 30px;
+    top: 7.8%;
+    left: 35%;
+    box-shadow: 0 1.2rem 0.7 hsl(245, 75%, 52%);
+}
+
+#illustration{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 30px;
+    color: rgba(20, 20, 20, 0.884);
+}
+
+#paragraph{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: lightslategrey;
+}
+
+#annualPlan{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    height: 15%;
+    border-radius: 5px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+    display: flex;
+    cursor: pointer;
+}
+
+#annualPlan h2{
+    font-size: 14px;
+    position: relative;
+    left: 75px;
+    top: 20px;
+}
+
+#annualPlan img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+#annualPlan p{
+    font-size: 14px;
+    position: absolute;
+    left: 75px;
+    top: 40px;
+    color: lightslategrey;
+}
+
+#annualPlan a{
+    position: absolute;
+    left: 75%;
+    top: 33%;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+#annualPlan a:hover{
+    text-decoration: underline;
+}
+
+#payment-btn{
+    position: relative;
+    left: 35px;
+    top:40px;
+    width: 80%;
+    height: 7%;
+    background: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#cancel-btn{
+    position: relative;
+    left: 35px;
+    top:50px;
+    width: 80%;
+    height: 5.6%;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(228, 100%, 80%);
+        margin-left: -47px;
+    }
+    .sub-container{
+        width: 90%;
+        position: relative;
+        left: 20px;
+    }
+}
+
+
+
+
+
+
